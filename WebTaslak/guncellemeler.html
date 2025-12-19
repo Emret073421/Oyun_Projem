@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Güncellemeler</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-fluid text-center logo-container">
+        <a class="navbar-brand" href="index.html">
+            <img src="image/anafoto.png" style="max-width: 100%; height: auto;">
+        </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark theme-bg"> 
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbar open/close">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav mb-2 mb-lg-0 gap-4" style="font-size: 1.1rem;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><b>Anasayfa</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.html"><b>Hakkımızda</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="guncellemeler.html"><b>Güncellemeler</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="indir.html"><b>İndir</b></a>
+                    </li>    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="container py-5">
+            
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold text-shadow-pixel" style="color: #5a3a22; font-family: 'Courier New', monospace;">GELİŞTİRME GÜNLÜĞÜ</h1>
+                <p class="lead text-dark fw-bold bg-white bg-opacity-50 d-inline-block px-3 rounded">
+                    Safari Run Run projesinin yapım aşamalarını buradan takip edebilirsiniz.
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+
+                    <div class="update-card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="update-img-container h-100">
+                                    <img src="image/image_1.jpg" class="img-fluid rounded-start pixel-img h-100 w-100 object-fit-cover" alt="Harita Tasarımı">
+                                    <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-2">v0.8 Beta</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h3 class="card-title fw-bold" style="color: #5a3a22;">Harita ve Çevre Tasarımı</h3>
+                                        <small class="text-muted fw-bold"><i class="far fa-calendar-alt me-1"></i> 10 Aralık 2025</small>
+                                    </div>
+                                    <p class="card-text text-dark">
+                                        Oyunun geçtiği savana haritası büyük ölçüde tamamlandı. Arka plandaki dağlar ve ön plandaki uzun otlar için paralaks (derinlik) efekti eklendi.
+                                    </p>
+                                    <ul class="pixel-list small text-dark">
+                                        <li>Yeni hayvan sprite'ları (Zürafa, Fil) eklendi.</li>
+                                        <li>Cip sürüş mekanikleri iyileştirildi.</li>
+                                        <li><span class="text-danger">Bilinen Hata:</span> Bazen gergedanlar ağaçların içinden geçiyor (Düzeltiliyor).</li>
+                                    </ul>
+                                    <div class="mt-3">
+                                        <span class="badge bg-secondary">Grafik</span>
+                                        <span class="badge bg-secondary">Fizik</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="update-card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="update-img-container h-100">
+                                    <img src="image/image_2.jpg" class="img-fluid rounded-start pixel-img h-100 w-100 object-fit-cover" alt="Kule Mekaniği">
+                                    <span class="badge bg-success position-absolute top-0 start-0 m-2">Tamamlandı</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h3 class="card-title fw-bold" style="color: #5a3a22;">Gözetleme Kulesi ve Tuzaklar</h3>
+                                        <small class="text-muted fw-bold"><i class="far fa-calendar-alt me-1"></i> 25 Kasım 2025</small>
+                                    </div>
+                                    <p class="card-text text-dark">
+                                        Oyuncunun ana üssü olan Gözetleme Kulesi modellendi. Tuzak kurma sistemi kodlandı. Artık oyuncular hayvanları zarar vermeden yakalayabilecekleri kafesleri yerleştirebiliyor.
+                                    </p>
+                                    <div class="mt-3">
+                                        <span class="badge bg-secondary">Mekanik</span>
+                                        <span class="badge bg-secondary">Kodlama</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="update-card mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="update-img-container h-100">
+                                    <img src="image/image_1.jpg" class="img-fluid rounded-start pixel-img h-100 w-100 object-fit-cover" alt="Arayüz Tasarımı">
+                                    <span class="badge bg-info text-dark position-absolute top-0 start-0 m-2">UI / UX</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body p-4">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h3 class="card-title fw-bold" style="color: #5a3a22;">Arayüz ve Menü Tasarımı</h3>
+                                        <small class="text-muted fw-bold"><i class="far fa-calendar-alt me-1"></i> 1 Kasım 2025</small>
+                                    </div>
+                                    <p class="card-text text-dark">
+                                        Ana menü, oyun içi HUD ve durdurma ekranları tasarlandı. Piksel sanatına uygun fontlar seçildi.
+                                    </p>
+                                    <div class="mt-3">
+                                        <span class="badge bg-secondary">Arayüz</span>
+                                        <span class="badge bg-secondary">Tasarım</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="text-white pt-4 pb-4 theme-bg">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                
+                <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Safari Run Run</h5>
+                    <p>
+                        Bu oyun bitirme projesi kapsamında geliştirilmiştir. 
+                        Afrika savanalarında geçen keyifli bir hayatta kalma macerası.
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Menü</h5>
+                    <p><a href="index.html" class="text-white text-decoration-none">Anasayfa</a></p>
+                    <p><a href="hakkimizda.html" class="text-white text-decoration-none">Hakkımızda</a></p>
+                    <p><a href="indir.html" class="text-white text-decoration-none">İndir</a></p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">İletişim</h5>
+                    <p><i class="fas fa-home mr-3"></i> Antalya, Türkiye</p>
+                    <p><i class="fas fa-envelope mr-3"></i> info@safarirun.com</p>
+                </div>
+                
+            </div>
+
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p class="text-center text-md-start">
+                        © 2025 Tüm Hakları Saklıdır:
+                        <a href="#" class="text-warning text-decoration-none">
+                            <strong> İsim Soyisim</strong>
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-end">
+                       <a href="#" class="btn btn-outline-light btn-floating m-1" role="button">F</a>
+                       <a href="#" class="btn btn-outline-light btn-floating m-1" role="button">X</a>
+                       <a href="#" class="btn btn-outline-light btn-floating m-1" role="button">In</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
