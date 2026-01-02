@@ -1,0 +1,6 @@
+/[Mm]y project/[Ll]ibrary/
+/[Mm]y project/[Tt]emp/
+/[Mm]y project/[Oo]bj/
+/[Mm]y project/[Bb]uild/
+*.csproj
+*.sln
